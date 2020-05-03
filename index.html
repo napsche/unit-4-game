@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crystal Game</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="style/css" src="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 <body>
@@ -22,7 +22,7 @@
             You win the game by matching your total score to the random number. You lose the game if your total score goes over the random number. 
         </p>
         <p>
-            The value of each crystal is hidden until you clokc on the image. 
+            The value of each crystal is hidden until you click on the image. 
         </p>
         <p>
             Each time the game starts, the game will change the values of each crystal. 
@@ -39,18 +39,28 @@
             Losses
         </h3>
     </div>
-    <div class="container col-sm-3" id="crystals1">
-
+    <div class="crystals">
+        <button class="crystal row col-sm-3" id="crystals1">
+            <img src="./assets/images/crystals1.jpg">
+        </button>
+        <button class="crystal row col-sm-3" id="crystals2">
+            <img src="./assets/images/crystals-2.webp">
+        </button>
+        <button class="crystal row col-sm-3" id="crystals3">
+            <img src="./assets/images/crystal-3.jpg">
+        </button>
+        <button class="crystal row col-sm-3" id="crystals4">
+            <img src="./assets/images/crystal-4.png">
+        </button>
     </div>
-    <div class="container col-sm-3" id="crystals2">
-        
+    <div class="container" id="score">
+        <h3>
+            Score:
+        </h3>
+        <p id="wins"></p>
+        <p id="losses"></p>
     </div>
-    <div class="container col-sm-3" id="crystals3">
-        
-    </div>
-    <div class="container col-sm-3" id="crystals4">
-        
-    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </body>
 </html>

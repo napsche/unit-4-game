@@ -1,0 +1,18 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+.container {
+    text-align: center;
+}
+body {
+    background-color: cornflowerblue;
+}
+h1 {
+    text-align: center;
+    color: cornsilk;
+}
+p {
+    color: cornsilk;
+    text-align: center;
+}
