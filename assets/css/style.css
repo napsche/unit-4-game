@@ -16,3 +16,14 @@ p {
     color: cornsilk;
     text-align: center;
 }
+.crystal {
+    float: left;
+}
+#crystals1 {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+#crystals4 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
