@@ -6,6 +6,7 @@
     <title>Crystal Game</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css"
 
 </head>
 <body>
@@ -28,17 +29,31 @@
             Each time the game starts, the game will change the values of each crystal. 
         </p>
     </div>
-    <div class="container" id="random-number">
 
+    <div class="container" id="randomnumber">
+        <h3>Random Number: 
+            <span id="randomgoal"></span>
+        </h3> 
     </div>
-    <div class="container" id="score">
+   
+    <div class="container" id="gametally">
         <h3>
-            Wins
+            Wins:
+                <span id="winstally"></span>
         </h3>
         <h3>
-            Losses
+            Losses:
+                <span id="losstally"></span>
         </h3>
     </div>
+
+    <div class="container" id="currentscore">
+        <h3>
+            Score: 
+                <span id="userTotal"></span>
+        </h3>
+    </div>
+
     <div class="crystals">
         <button class="crystal row col-sm-3" id="crystals1">
             <img src="./assets/images/crystals1.jpg">
@@ -53,13 +68,8 @@
             <img src="./assets/images/crystal-4.png">
         </button>
     </div>
-    <div class="container" id="score">
-        <h3>
-            Score:
-        </h3>
-        <p id="wins"></p>
-        <p id="losses"></p>
-    </div>
+ 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </body>
