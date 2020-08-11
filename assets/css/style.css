@@ -6,11 +6,12 @@ img {
     text-align: center;
 }
 body {
-    background-color: cornflowerblue;
+    background-image: url("../images/crystalbackground.jpg");
 }
 h1 {
     text-align: center;
     color: cornsilk;
+    font-family: 'Luckiest Guy', cursive;
 }
 p {
     color: cornsilk;
@@ -18,12 +19,13 @@ p {
 }
 .crystal {
     float: left;
+    cursor: pointer;
 }
-#crystals1 {
+/* #crystals1 {
     margin-left: 15px;
     margin-right: 10px;
 }
 #crystals4 {
     margin-right: 10px;
     margin-left: 10px;
-}
+} */
