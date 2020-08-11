@@ -12,20 +12,32 @@ h1 {
     text-align: center;
     color: cornsilk;
     font-family: 'Luckiest Guy', cursive;
+    margin-top: 60px;
+    font-size: 50px;
+}
+h3 {
+    font-family: 'Luckiest Guy', cursive;
+    color: cornsilk;
 }
 p {
-    color: cornsilk;
+    background-color: cornsilk;
+    color: cornflowerblue;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    width: fit-content;
 }
 .crystal {
     float: left;
     cursor: pointer;
 }
-/* #crystals1 {
-    margin-left: 15px;
-    margin-right: 10px;
+#p1 {
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%; 
 }
-#crystals4 {
-    margin-right: 10px;
-    margin-left: 10px;
-} */
+#p2 {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
