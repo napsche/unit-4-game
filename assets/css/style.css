@@ -26,10 +26,24 @@ p {
     font-family: 'Oswald', sans-serif;
     font-size: 32px;
     width: fit-content;
+    border-style: groove;
+    border-width: 5px;
 }
-.crystal {
-    float: left;
+.crystals {
     cursor: pointer;
+}
+.crystalImage {
+    border-style: ridge;
+    border-width: 10px;
+}
+.flex-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-content: center;
+}
+.tally {
+    text-shadow: 2px 2px blue;
 }
 #p1 {
    width: 50%;
