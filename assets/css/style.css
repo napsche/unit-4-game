@@ -29,6 +29,9 @@ p {
     border-style: groove;
     border-width: 5px;
 }
+footer {
+    text-shadow: 2px 2px cornsilk;
+}
 .crystals {
     cursor: pointer;
 }
